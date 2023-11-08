@@ -7,17 +7,26 @@
 
 .container-totale{
     width: 100%;
-    margin: auto 0;
+    margin: 0 auto;
 }
 
-/*.container-normal{
-    width: 1000px;
-    margin: auto 0;
-}*/
+.container-center{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 .small-container{
     width: 1000px;
     margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.column-container{
+    justify-content: space-between;
 }
 
 .header-top{
@@ -107,21 +116,19 @@ h1{
 
 .big-container-main{
     width: auto;
+
 }
 
 div > input{
     margin-bottom: 60px;
 }
 
-
+section{
+    width: 100%;
+}
 .container-opzioni-abbonamento{
-    width: 20%;
-    height: 780px;
-    float: left;
-    flex: wrap;
-    flex-direction: column;
+    width: 30%;
     border: 1px solid lightgrey;
-    margin-right: 20px;
     margin-bottom: 20px;
 }
 
@@ -130,10 +137,10 @@ div > input{
     margin-top: 5px;
 }
 
-#bottom-radio{
+/* #bottom-radio{
     margin-top: 50px;
     margin-bottom: 40px;
-}
+} */
 
 #bottom-radio input{
     margin-right: 10px;
@@ -183,17 +190,13 @@ hr{
     color: #0061ff;
 }
 
-.acquista-ora{
+.acquista-ora , .scopri-di-piu{
     text-decoration: underline;
     color: #0061ff;
 }
 
 .container-ufficio-vendite{
-    width: 63%;
-    height: 250px;
     border: 1px solid lightgray;
-    display: flex;
-    display: inline-block;
 }
 
 
@@ -221,14 +224,12 @@ hr{
 .container-foto-main-1{
     float: left;
     width: 60%;
-    height: 550px;
     margin-top: 130px;
 }
 
 .container-description{
     float: left;
     width: 25%;
-    height: 550px;
     margin-left: 20px;
     margin-top: 130px;
 }
@@ -252,6 +253,27 @@ p , .button-white{
     margin-top: 20px;
 }
 
+.small-container > div > h2{
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features-1{
+    width: 30%;
+}
+
+.h2-main-dropbox-businnes{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
 
 
 
