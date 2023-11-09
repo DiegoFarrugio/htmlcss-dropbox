@@ -1,3 +1,4 @@
+/*DEFAULT*/
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,6 +6,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*CONTAINER GENERALI*/
 .container-totale{
     width: 100%;
     margin: 0 auto;
@@ -21,22 +24,23 @@
     margin: 0 auto;
 }
 
+
+
+/*FLEX GENERALE*/
 .flex-container{
     display: flex;
 }
 
-.column-container{
-    justify-content: space-between;
-}
 
+/*INIZIO CSS HEADER*/
 .header-top{
-    height: 45px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .header-top > .big-container-header-top{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .container-header-top-1-sez{
@@ -63,7 +67,7 @@ a, .logo-dropbox{
     background-color: #b4d0e7;
 }
 
-h1{
+ h1{
     text-align: center;
     font-size: 3em;
     padding: 90px;
@@ -106,6 +110,15 @@ h1{
 .container-header-bottom-2-foto{
     position: relative;
 }
+/*FINE CSS HEADER*/
+
+
+
+
+/*INIZIO CSS MAIN*/
+.column-container{
+    justify-content: space-between;
+}
 
 .h2-main{
     text-align: center;
@@ -114,10 +127,6 @@ h1{
     margin-bottom: 50px;
 }
 
-.big-container-main{
-    width: auto;
-
-}
 
 div > input{
     margin-bottom: 60px;
@@ -126,6 +135,7 @@ div > input{
 section{
     width: 100%;
 }
+
 .container-opzioni-abbonamento{
     width: 30%;
     border: 1px solid lightgrey;
@@ -135,15 +145,6 @@ section{
 .border-column{
     border: 1px solid lightgrey;
     margin-top: 5px;
-}
-
-/* #bottom-radio{
-    margin-top: 50px;
-    margin-bottom: 40px;
-} */
-
-#bottom-radio input{
-    margin-right: 10px;
 }
 
 .item-abbonamento{
@@ -157,7 +158,7 @@ h3{
     margin-top: 30px;
 }
 
-.costo-abbonamento{
+h3 + div{
     display: flex;
     flex-direction: column;
     margin: 15px;
@@ -201,7 +202,7 @@ ul li{
 }
 
 
-.h5-enterprise{
+.h3{
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -256,17 +257,14 @@ p , .button-white{
 }
 
 .small-container > div > h2{
-    display: inline-block;
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .features{
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.features-1{
+.features >*{
     width: 30%;
 }
 
@@ -296,10 +294,6 @@ p , .button-white{
 .left-main-banner img{
     width: 50%;
     filter: invert(96%) sepia(4%) saturate(5460%) hue-rotate(189deg) brightness(117%) contrast(103%);
-}
-
-.foto-center{
-    justify-content: center;
 }
 
 .background-color-1{
@@ -340,15 +334,7 @@ p , .button-white{
     padding: 20px;
 }
 
-.paragrafo-logo-designit{
-    padding: 20px;
-}
-
-.paragrafo-logo-designit > span{
-    padding: 20px;
-}
-
-.autore-logo-designit{
+.paragrafo-logo-designit, .autore-logo-designit{
     padding: 20px;
 }
 
@@ -416,11 +402,13 @@ section .container-center span{
 .faq-container > div > p{
     margin: 0;
 }
+/*FINE CSS MAIN*/
 
+
+
+/*FOOTER*/
 .container-footer{
     background-color: black;
-    width: 100%;
-    height: 500px;
 }
 
 h5, li a {
@@ -455,7 +443,7 @@ h5{
     margin-bottom: 50px;
 }
 
-.container{
+.container-lingua{
     color: white;
 }
 
