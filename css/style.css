@@ -20,8 +20,9 @@
 }
 
 .small-container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -133,6 +134,8 @@
 .freccia-header-bottom{
     margin-top: 30px;
     font-size: 4em;
+    text-decoration: none;
+    color: black;
 }
 
 .container-header-bottom-2-foto{
@@ -167,7 +170,7 @@ section{
 .container-opzioni-abbonamento{
     width: 30%;
     border: 1px solid lightgrey;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .border-column{
@@ -227,6 +230,7 @@ ul li{
 
 .container-ufficio-vendite{
     border: 1px solid lightgray;
+    margin-bottom: 100px;
 }
 
 
@@ -250,15 +254,13 @@ ul li{
 
 .container-foto-main-1{
     width: 60%;
-    margin-top: 130px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .container-description{
-    width: 25%;
-    margin-left: 15px;
-    margin-top: 130px;
+    width: 30%;
 }
+
 
 .paragrafo-2{
     margin-left: -7px;
