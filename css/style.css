@@ -109,6 +109,17 @@
     margin-bottom: 20px;
 }
 
+.inizia-prova-gratuita, .bottom-prova-gratis{
+    background-color: #3061FF;
+    padding: 10px;
+    width: 200px;
+    color: white;
+}
+
+.prova-gratuita-bottom{
+    padding: 10px;
+}
+
 .annulla-prova-gratuita{
     display: block;
 }
@@ -394,6 +405,18 @@ section .container-center span{
     margin-top: 20px;
 }
 
+/*Proprietà usate per il Bonus interazione su item FAQ
+.answer-faq{
+    margin-top: 5px;
+    background-color: rgba(100, 100, 100, 0.2);
+    display: none;
+}
+
+.faq-container:hover .answer-faq{
+    display: inline-block;
+}
+*/
+
 .faq-container{
     margin-bottom: 130px;
 }
@@ -433,6 +456,14 @@ h5, li a {
     font-size: 1em;
 }
 
+ul li a , .annulla-prova-gratuita{
+    text-decoration: none;
+}
+
+.annulla-prova-gratuita{
+    color: black;
+}
+
 .blocco-vuoto{
     width: 50px;
 }
@@ -441,6 +472,10 @@ h5, li a {
     margin-top: 20px;
 }
 
+.lingua{
+	padding: 10px;
+    margin-bottom: 40px;
+}
 
 h5{
     font-size: 1.5em;
